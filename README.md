@@ -15,7 +15,7 @@ $ mkdir ${HOME_DIR}/Documents/application
 $ cd ${HOME_DIR}/Documents/application/
 $ git clone https://github.com/kazuki43zoo/mybatis-spring-boot-jpetstore.git
 ```
-## Build war file
+## Build jar file
 ```shell
 $ cd mybatis-spring-boot-jpetstore.git
 $ ./mvnw clean package -DskipTests=true
