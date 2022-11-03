@@ -10,6 +10,8 @@ $ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 
 ## clone the jpetstore application
 ```shell
+$ mkdir ${HOME_DIR}/Documents/application
+$ cd ${HOME_DIR}/Documents/application/
 $ git clone https://github.com/mybatis/jpetstore-6.git
 ```
 ## Build war file
