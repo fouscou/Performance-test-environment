@@ -6,6 +6,7 @@ $ sudo yum install -y git maven java
 $ sudo systemctl enable firewalld
 $ sudo systemctl start firewalld
 $ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+$ sudo firewall-cmd --reload
 ```
 
 ## clone the jpetstore application
